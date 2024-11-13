@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = "SIGSEGV";
 export const SITE_DESCRIPTION =
-  "Program received signal SIGSEGV, Segmentation fault. Other than that, here I host my projects.";
+  "Program received signal SIGSEGV, other than that, here I host my projects.";
