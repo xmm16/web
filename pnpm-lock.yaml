@@ -20,6 +20,9 @@ importers:
       '@astrojs/sitemap':
         specifier: ^3.2.1
         version: 3.2.1
+      '@fontsource-variable/m-plus-1-code':
+        specifier: ^5.1.0
+        version: 5.1.0
       astro:
         specifier: ^4.16.11
         version: 4.16.11(rollup@4.25.0)(typescript@5.6.3)
@@ -327,6 +330,9 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/m-plus-1-code@5.1.0':
+    resolution: {integrity: sha512-AucG5uYny5oKLXhOIlB5eBCClU7FSJ7dyL/QtKUXxu3fbu4zkio+t0vWRfAyGTxe/RSB1vbK+IaCkWs9UrjpTA==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2343,6 +2349,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@fontsource-variable/m-plus-1-code@5.1.0': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
