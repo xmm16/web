@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
+import { remarkReadingTime } from "./remark-reading-time.mjs";
 
 import sitemap from "@astrojs/sitemap";
 
@@ -12,4 +13,7 @@ export default defineConfig({
   },
   site: "https://fault.wtf",
   integrations: [mdx(), sitemap()],
+  markdown: {
+    remarkPlugins: [remarkReadingTime],
+  },
 });

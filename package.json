@@ -16,6 +16,8 @@
     "@astrojs/sitemap": "^3.2.1",
     "@fontsource-variable/m-plus-1-code": "^5.1.0",
     "astro": "^4.16.11",
+    "mdast-util-to-string": "^4.0.0",
+    "reading-time": "^1.5.0",
     "typescript": "^5.6.3"
   }
 }
