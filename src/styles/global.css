@@ -173,7 +173,7 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: var(--white);
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.7;
 }
 main {
