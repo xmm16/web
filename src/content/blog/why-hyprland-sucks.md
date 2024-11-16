@@ -14,3 +14,6 @@ pubDate: "November 16 2024"
 
 Vaxry has been caught doing terrible security practices.
 On November 9 2024, a [Pull Request](https://github.com/hyprwm/Hyprland/issues/8400) appeared about Hyprland overusing `execAndGet()`, a function that invokes `/bin/sh` (System shell) to call specific programs such as `git`, `grep`, `cat` and `date`, it was also previously seen being used to call the system compiler for a file that was hardcoded in `/tmp/` to compile plugins, this was in practice, a 0day vulnerability as it allowed an attacker to put a file before Hyprland did (a race condition) therefore compiling and executing said file, Hyprland itself technically hard-depends on a compiler, linker, git, binutils and specific coreutils, which should not be tolerated at all since this is a window manager.
+
+# Conclusion
+You shouldn't use Hyprland if your environment needs security.
